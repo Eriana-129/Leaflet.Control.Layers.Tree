@@ -12,7 +12,14 @@ De manera general, los pasos a seguir en Rstudio son los siguientes:
 5.  Después registramos el plugin
 6.  Luego creamos el mapa. Es muy importante no usar el AddLayersControl de leaflet base, ya que entra en conflicto con el plugin que vamos a usar. 
 7.  Dentro de esa creación, agregamos el árbol de capas de acuerdo con las instrucciones de jjimenezshaw
-8.  jjimenezshaw indica que debemos de usar L.control.layers.tree(baseTree, overlaysTree, options).addTo(map);, en este caso se ha usado algo muy similar que es L.control.layers.tree(baseTree, overlaysTree, options).addTo(this);
+8.  jjimenezshaw indica que debemos de usar:
+```
+ L.control.layers.tree(baseTree, overlaysTree, options).addTo(map);
+```
+En este caso se ha usado algo muy similar que es
+```
+L.control.layers.tree(baseTree, overlaysTree, options).addTo(this);
+```
 9.  Cargamos el mapa final
 
 Pueden usar carácteres unicode para agregar emojis, esto se hace dentro del árbol de capas. 
