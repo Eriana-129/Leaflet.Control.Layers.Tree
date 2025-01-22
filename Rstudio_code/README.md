@@ -16,3 +16,7 @@ De manera general, los pasos a seguir en Rstudio son los siguientes:
 9.  Cargamos el mapa final
 
 Pueden usar carácteres unicode para agregar emojis, esto se hace dentro del árbol de capas. 
+
+De seguir todos los pasos de manera correcta, así debe de lucir su control de capas.
+
+![panel](./layers_tree.jpg)
